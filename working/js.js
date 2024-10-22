@@ -55,3 +55,6 @@ document.getElementById("in18").onclick = function() {
 document.getElementById("in19").onclick = function() {
     document.getElementById("in1").value += '0';
 };
+document.getElementById("in20").onclick = function() {
+    document.getElementById("in1").value = eval(document.getElementById("in1").value);
+};
