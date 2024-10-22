@@ -7,24 +7,21 @@
 @keyframes colour {
     0%{
         background: linear-gradient(45deg, mediumpurple, lightpink, lightskyblue);
-
     }
     25%{
-        background: radial-gradient(circle, #4e28b7, #c4a2a5, #38a0e1);
-
+        background: linear-gradient(45deg, #b19cd9, #f8c8dc, #aed4f5); /* Softer purple, pink, and blue */
     }
     50%{
-        background: radial-gradient(circle, #9d9d9d, #c7d743, #d21cde);
-
+        background: linear-gradient(45deg, #e0d4f7, #f6d6e3, #c6e5f9); /* Lighter pastel shades */
     }
     75%{
-        background: radial-gradient(circle, #9d9d9d, #c7d743, #58b68c);
-
+        background: linear-gradient(45deg, #d9c2f0, #f5d9e7, #bbe1f6); /* Maintaining the purple-pink-blue theme */
     }
     100%{
-        background: radial-gradient(circle, #4bb22b, #60a3a6, #ce8fb0);
-
+        background: linear-gradient(45deg, #d6d6f1, #e8e8f4, #d4f1f7); /* Very light and soft tones */
     }
+
+
 
 }
 .container{
